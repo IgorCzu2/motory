@@ -1,0 +1,80 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#tlo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('motor.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#gora {
+    background-color: rgba(60, 120, 160, 0.9);
+    color: white;
+    font-size: 150%;
+    padding: 10px;
+    text-align: center;
+}
+
+#srodek {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+}
+
+#lewy {
+    background-color: rgba(0, 100, 0, 0.6);
+    width: 75%;
+    height: 600px;
+    margin: 2%;
+    font-size: 120%;
+    overflow-y: auto;
+    box-shadow: 10px 10px 7px DimGray;
+}
+
+#prawy > section {
+    background-color: rgba(0, 100, 0, 0.6);
+    width: 100%;
+    height: 300px;
+    margin: 1%;
+    box-shadow: 10px 10px 7px DimGray;
+}
+
+#dol {
+    background-color: rgba(60, 120, 160, 0.9);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+dl dt {
+    color: white;
+    margin: 1%;
+}
+
+dl dd {
+    color: white;
+    background-color: LightGreen;
+    padding: 5px;
+}
+
+dl dt:hover {
+    background-color: LightGreen;
+}
